@@ -1,0 +1,363 @@
+@import url(https://db.onlinewebfonts.com/c/29e9a3f5cf847428382058f505969b17?family=Nassim+Regular); 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Nassim Regular", sans-serif;
+   
+}
+.wrapper .top_nav{
+    width: 100%;
+    height: 60px;
+    background: #ff5e00;
+    color: orange;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 10px 10px rgba(80, 79, 79, 0.1);
+   
+    z-index: 2;
+}
+.wrapper .top_nav .left{
+    display: flex;
+    align-items: center;
+}
+.wrapper .top_nav .left .logo{
+    margin-right: 25px;
+}
+
+.wrapper .top_nav .left .search_bar input[type="Search"]{
+    background-color: hsl(252, 30%, 95%);
+    border-radius: 2rem;
+    padding: 0.6rem 1rem;
+    background: transparent;
+    width: 20vw;
+    margin-left: 90px;
+    font-size: 0.9rem;
+    color: black;
+    font-size:  20px;
+}
+.wrapper .top_nav .ntb .btn{
+    display: inline-block;
+    margin-left: 80px;
+    font-size: 15px;
+    color: black;
+    padding: 0.6rem 2rem;
+    font-weight:500;
+    border-radius: 2rem;
+    border: 2px solid black;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    transition: all 300ms ease;
+}
+.wrapper .top_nav .right .btn {
+    display: inline-block;
+    font-size: 15px;
+    background-color: #ffffff;
+    color: #ff5e00;
+    padding: 0.6rem 2rem;
+    font-weight:500;
+    border-radius: 2rem;
+    margin-right: 12px;
+    font-size: 15px;
+    border: 0px solid rgb(255, 255, 255);
+    cursor: pointer;
+    
+
+    transition: all 300ms ease;
+
+}
+.wrapper .top_nav .right .btn:hover {
+    opacity: 0.8;
+}
+.bottom_nav{
+    
+    min-height: 100vh;
+    padding-left: 70px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+.bottom_nav ul{
+    width: 80%;
+    margin-left: 200px;
+    font-size: 25px;
+    height: 50px;
+    display: flex;
+    align-items: right;
+}
+.bottom_nav ul li a{
+    color: black;
+    text-transform: uppercase;
+    
+    font-size: 0px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 0.3rem 0.9rem;
+    margin-right: 20px;
+    font-weight:500;
+    border-radius: 2rem;
+    border: 3px solid #f56b1b;
+    cursor: pointer;   
+}
+.bottom_nav .txt{
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.upper{
+    background-image: url('img/assd.webp');
+    min-height: 50vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/* Style for the search bar container */
+.search-bar {
+    display: flex;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 20px; /* Rounded corners */
+    overflow: hidden;
+    height: 40px;
+    width: 500px; /* Adjust the width as needed */
+}
+
+/* Style for the search input */
+.search-bar input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-radius: 20px 0px 0px 20px; /* Rounded corners */
+}
+
+/* Style for the search button */
+.search-bar button {
+    background-color: #ffffff;
+    color: #ff5e00;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+  /* Rounded corners */
+}
+
+/* Hover effect for the search button */
+.search-bar button:hover {
+    background-color: #ffffff;
+}
+
+/* Style for the search icon (Font Awesome) */
+.search-bar button i {
+    font-size: 18px;
+}
+
+
+
+
+.Premium_btn .btn{
+    color: #ffffff;
+    background-color: #ff5e00;
+    justify-content: space-around;
+    margin-left: 30px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 800;
+    padding: 0.5rem;
+    font-weight:500;
+    border-radius: 2rem;
+    border: 2px solid white;
+    cursor: pointer;  
+}
+
+.logo{
+    margin-top: 10px;
+}
+
+
+/* Style for the blur container */
+.blur-container {
+    position: relative;
+    margin-top: 30px;
+    width: 300px; /* Adjust the width as needed */
+    overflow: hidden;
+}
+
+/* Style for the blur background */
+.blur-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('img/lockIocn.png'); /* Replace with your image path */
+    filter: blur(8px); /* Adjust the blur amount as needed */
+    z-index: -1;
+}
+
+/* Style for the content inside the container */
+.content {
+    height: 150px;
+    width: 300px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(110, 104, 104, 0.863); /* Adjust the background color and opacity */
+    border-radius: 20px;
+}
+
+/* Style for the vertical image */
+.content img {
+    width: 30px;
+    height: 40px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+/* Style for the button */
+.btnview {
+    background-color: #f56b1b;
+    color: #fff;
+    border: 2px #5c5959;
+    padding: 10px 20px;
+    border-radius: 13px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 250px;
+}
+
+/* Hover effect for the button */
+.btnview:hover {
+    background-color: #8b5530;
+}
+
+
+
+
+
+
+
+
+
+.content1 {
+    width: auto; /* Adjust the width as needed */
+    padding: 20px;
+    background: transparent;
+    border: transparent;
+    color: #ff5e00;
+    text-align: right; /* Align text to the right */
+    font-size: 70px;
+    line-height: 70px;
+}
+
+/* Style for the .jiga container */
+.jiga {
+    display: flex;
+    justify-content: space-between; /* Aligns items to each end */
+}
+
+
+.txtview1{
+    font-size: 80px;
+    color: #ffffff;
+    line-height: 70px;
+}
+
+
+/* Style for the dropdown container */
+.dropdown5 {
+    position: relative;
+    
+    list-style: none;
+}
+
+/* Style for the dropdown button */
+.dropbtn5 {
+    background: transparent;
+    color: white;
+    border: none;
+    text-decoration: none;
+    
+}
+
+/* Style for the dropdown content */
+.dropdown5-content5 {
+    display: none;
+    position: absolute;
+    background: transparent;
+    
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+   
+
+}
+
+/* Style for dropdown links */
+.dropdown5-content5 a1 {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Hover effect for dropdown links */
+.dropdown5-content5 a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown content on hover */
+.dropdown5:hover .dropdown5-content5 {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
